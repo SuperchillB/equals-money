@@ -1,4 +1,4 @@
-# equals-technical-test
+# Equals Money
 Take-home assignment for a Frontend Developer position at Equals Money
 
 ## Context
