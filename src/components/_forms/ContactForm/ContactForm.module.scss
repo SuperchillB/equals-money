@@ -1,0 +1,55 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+.avatarColumn {
+  display: flex;
+  justify-content: center;
+  margin: auto auto 2rem auto;
+  flex-direction: column;
+  align-items: center;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.avatarWrapper {
+  display: inline-block;
+  overflow: hidden;
+  width: 50%;
+  padding-bottom: 50%;
+  height: 0;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  clip-path: circle(50%);
+  object-fit: cover;
+}
+
+.contactForm {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@include media-breakpoint-up(md) {
+  .contactForm {
+    width: 50%;
+  }
+
+  .avatarColumn {
+    align-items: end;
+  }
+
+  .avatarWrapper {
+    width: 75%;
+    padding-bottom: 75%;
+  }
+}
