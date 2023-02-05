@@ -50,7 +50,7 @@ Build a contact viewer which will display a list of contact cards with minimal d
 
 ## Technical aspects
 
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) with [TypeScript](https://www.typescriptlang.org/)
 - The package manager used in this project is [pnpm](https://pnpm.io/)
 - [React Router's new v6.4](https://reactrouter.com/en/main) is used in this project for better client-side routing but also improved data fetching and overall UI performance
 - External data fetching is partly handled by [React Query](https://tanstack.com/query/v3/docs/react/overview), especially when it comes to caching
