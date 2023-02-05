@@ -76,6 +76,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `pnpm cy:run`
+
+Runs Cypress tests to completion. By default, cypress run will run all tests headlessly.
+
+### `pnpm cy:open`
+
+Opens a Cypress browser window (Cypress Launchpad).
+
 ### `pnpm run build`
 
 Builds the app for production to the `build` folder.\
