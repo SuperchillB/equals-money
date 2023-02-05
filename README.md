@@ -1,4 +1,4 @@
-# equals-technical-test
+# Equals Money
 
 Take-home assignment for a Frontend Developer position at Equals Money
 
@@ -59,6 +59,8 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - [Cypress](https://docs.cypress.io/) is used for E2E testing
 
 ## Getting started
+
+_Quick note: This project uses `pnpm` as the dependency package management tool. To install this tool, make sure you follow the instructions [here](https://pnpm.io/installation)._
 
 Please run the following to install all the packages needed in this app:
 
