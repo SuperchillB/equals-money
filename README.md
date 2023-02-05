@@ -1,4 +1,5 @@
 # equals-technical-test
+
 Take-home assignment for a Frontend Developer position at Equals Money
 
 ## Context
@@ -11,6 +12,7 @@ PUT - [https://61c32f169cfb8f0017a3e9f4.mockapi.io/api/v1/contacts/:id](https://
 DELETE - [https://61c32f169cfb8f0017a3e9f4.mockapi.io/api/v1/contacts/:id](https://61c32f169cfb8f0017a3e9f4.mockapi.io/api/v1/contacts/:id) - deletes a contact
 
 Example data
+
 ```
 [
   {
@@ -38,12 +40,13 @@ Build a contact viewer which will display a list of contact cards with minimal d
 
 ## Features
 
-- [x] Fetching all contacts  
-- [x] Fetching individual contacts  
-- [x] Updating individual contacts  
-- [x] Deleting individual contacts  
-- [x] Creating individual contacts  
-- [x] Uploading your own avatar from your computer file system  
+- [x] Fetching all contacts
+- [x] Fetching individual contacts
+- [x] Updating individual contacts
+- [x] Deleting individual contacts
+- [x] Creating individual contacts
+- [x] Uploading your own avatar from your computer file system
+- [x] Write tests
 
 ## Technical aspects
 
@@ -53,10 +56,11 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - External data fetching is partly handled by [React Query](https://tanstack.com/query/v3/docs/react/overview), especially when it comes to caching
 - Styling was done with the help of [React Bootstrap 5.2](https://react-bootstrap.github.io/), covering both responsiveness and basic accessibility
 - Project uses also CSS modules with Sass for styling
+- [Cypress](https://docs.cypress.io/) is used for E2E testing
 
 ## Getting started
 
-Please run the following to install all the packages needed in this app: 
+Please run the following to install all the packages needed in this app:
 
 ### `pnpm install`
 

@@ -10,7 +10,7 @@ export type HeaderProps = {
 
 const Header = ({ children }: HeaderProps) => {
   return (
-    <Navbar bg="light" fixed="top">
+    <Navbar bg="light" data-testid="navbar" fixed="top">
       <Container className="px-5" fluid>
         <Navbar.Brand as={Link} to="/">
           Contacts

@@ -19,7 +19,11 @@ const Home = () => {
         </Col>
         <Col className="text-end">
           <Link to="/contacts/new">
-            <Button type="submit" variant="primary">
+            <Button
+              data-testid="createContactBtn"
+              type="submit"
+              variant="primary"
+            >
               Create new contact
             </Button>
           </Link>
@@ -27,7 +31,7 @@ const Home = () => {
       </Row>
       <Row xs={2} md={4}>
         {contacts?.map((contact) => (
-          <Col key={contact.id}>
+          <Col data-testid="contactCard" key={contact.id}>
             <Card
               border="light"
               className={`${styles.card} mb-4 pt-3 shadow-sm`}

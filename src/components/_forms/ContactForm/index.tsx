@@ -61,6 +61,7 @@ const ContactForm = ({ contactDetails }: ContactFormProps) => {
     <BootstrapForm
       as={Form}
       className="w-100"
+      data-testid="contactForm"
       method="post"
       id="contact-form"
       noValidate

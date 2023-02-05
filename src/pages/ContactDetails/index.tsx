@@ -34,6 +34,7 @@ const ContactDetails = () => {
             }}
           >
             <Button
+              data-testid="deleteContactBtn"
               name="intent"
               type="submit"
               value="delete"
