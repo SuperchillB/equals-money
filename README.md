@@ -83,7 +83,7 @@ Runs E2E Cypress tests to completion. By default, cypress run will run all tests
 
 ### `pnpm cy:component`
 
-Runs E2E Cypress tests to completion. By default, cypress run will run all tests headlessly.
+Runs component Cypress tests to completion. By default, cypress run will run all tests headlessly.
 
 ### `pnpm cy:open`
 
