@@ -46,8 +46,6 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - [x] Deleting individual contacts
 - [x] Creating individual contacts
 - [x] Uploading your own avatar from your computer file system
-- [x] Writing tests
-- [x] Providing basic form validation
 
 ## Technical aspects
 
@@ -55,9 +53,10 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - The package manager used in this project is [pnpm](https://pnpm.io/)
 - [React Router's new v6.4](https://reactrouter.com/en/main) is used in this project for better client-side routing but also improved data fetching and overall UI performance
 - External data fetching is partly handled by [React Query](https://tanstack.com/query/v3/docs/react/overview), especially when it comes to caching
+- [Cypress](https://docs.cypress.io/) is used for both E2E and component testing
 - Styling was done with the help of [React Bootstrap 5.2](https://react-bootstrap.github.io/), covering both responsiveness and basic accessibility
 - Project uses also CSS modules with Sass for styling
-- [Cypress](https://docs.cypress.io/) is used for both E2E and component testing
+- Basic validation is covered
 
 ## Getting started
 
