@@ -46,7 +46,8 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - [x] Deleting individual contacts
 - [x] Creating individual contacts
 - [x] Uploading your own avatar from your computer file system
-- [x] Write tests
+- [x] Writing tests
+- [x] Providing basic form validation
 
 ## Technical aspects
 
