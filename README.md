@@ -56,7 +56,7 @@ Build a contact viewer which will display a list of contact cards with minimal d
 - External data fetching is partly handled by [React Query](https://tanstack.com/query/v3/docs/react/overview), especially when it comes to caching
 - Styling was done with the help of [React Bootstrap 5.2](https://react-bootstrap.github.io/), covering both responsiveness and basic accessibility
 - Project uses also CSS modules with Sass for styling
-- [Cypress](https://docs.cypress.io/) is used for E2E testing
+- [Cypress](https://docs.cypress.io/) is used for both E2E and component testing
 
 ## Getting started
 
@@ -76,13 +76,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `pnpm cy:run`
+### `pnpm cy:e2e`
 
-Runs Cypress tests to completion. By default, cypress run will run all tests headlessly.
+Runs E2E Cypress tests to completion. By default, cypress run will run all tests headlessly.
+
+### `pnpm cy:component`
+
+Runs E2E Cypress tests to completion. By default, cypress run will run all tests headlessly.
 
 ### `pnpm cy:open`
 
-Opens a Cypress browser window (Cypress Launchpad).
+Opens a Cypress browser window (Cypress Launchpad) and runs tests in the test runner.
 
 ### `pnpm run build`
 
